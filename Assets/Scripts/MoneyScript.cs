@@ -17,7 +17,7 @@ public class MoneyScript : MonoBehaviour
         private set
         {
             gold = Mathf.Clamp(value, 0, 9999999);
-            goldText.text = gold.ToString("0,000,000");
+            goldText.text = gold.ToString("0,000,000$");
         }
     }
 
